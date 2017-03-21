@@ -1,0 +1,172 @@
+div.page-header {
+    background-color: maroon;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+}
+#title {
+    padding-top: 2%;
+    margin-left: 27%;
+    font-family: Cambria;
+    font-size: 3em;
+    font-weight: bold;
+    color: lightgray;
+}
+#navposition {
+    margin-left: 24%;
+}
+#welcometext {
+    margin-left: 1.2em;
+    margin-top: 0em;
+    margin-bottom: 0.2em;
+    font-family: Verdana;
+    font-size: 2em;
+    color: maroon;
+}
+#textarea {
+    border: lightgray solid 0.2em;
+    border-radius: .21em;
+    padding: 2em;
+    margin-top: 5em;
+    margin-left: 3em;
+    margin-right: 5em;
+    margin-bottom: 10%;
+    font-size: 1em;
+}
+#footerlink {
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+}
+.footer-address {
+    float: right;
+    font-size: 0.7em;
+    margin-top: -1.4%
+}
+.footer-copyright {
+    float: left;
+    font-size: 1em;
+    margin-top: -1.4%;
+}
+div#team {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+    padding-left: 2em;
+    height: 100%;
+    width: 100%;
+}
+.member {
+    display: inline-block;
+    /*position: relative;*/
+    margin-top: 2em;
+    margin-left: 2.5%;
+    border: lightgrey solid .2em;
+    border-radius: .21em;
+    height: 100%;
+    width: 20%;
+}
+.personal {
+    display: inline-block;
+    /*position: relative;*/
+    margin-top: 1%;
+    margin-left: 2.5%;
+    margin-bottom: 5.5%;
+    border: lightgrey solid .2em;
+    border-radius: .21em;
+    height: 100%;
+    width: 80%;
+}
+.building {
+    display: inline-block;
+    /*position: relative;*/
+    margin-top: -3em;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border: lightgrey solid .2em;
+    border-radius: .21em;
+    height: 100%;
+    width: 80%;
+}
+.img {
+    float: left;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 1em;
+}
+.img-responsive {
+    border: lightgray solid 2px;
+}
+.building-pic {
+    margin-left: auto;
+    margin-right: auto;
+}
+.id {
+    float: right;
+    color: black;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 2em;
+    font-size: 1em;
+    width: 100%;
+}
+.bio {
+    padding-top: 8%;
+    padding-right: 2em;
+    font-size: 1em;
+}
+#def {
+    margin-left: 10%;
+    margin-bottom: 22%;
+}
+#address {
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 10%;
+    font-size: 1.5em;  
+}
+.address {
+    padding-top: 2em;
+}
+#formbox {
+    border: lightgray solid .02em;
+    padding: 1em;
+    margin-bottom: 10%;
+    
+}
+.member:hover{
+    box-shadow: 2px 2px 0 0 #888888;
+}
+li:hover{
+    background-color: lightgrey;
+}
+
+@media screen and (max-width: 420px) {
+  .member {
+    display: block;
+    width: 70%;
+  }
+  .membertwo {
+      margin-bottom: 30%;
+  }
+  #team {
+      margin-left: 1em;
+  }
+  .collapse.navbar-collapse {
+      display: block;
+  }
+  #title {
+      margin-left: 10%;
+      font-size: 2em;
+  }
+  #formbox {
+      margin-bottom: 32%;
+  }
+  #textarea {
+      margin-bottom: 32%;
+  }
+  #address {
+      margin-bottom: 32%;
+  }
+}
